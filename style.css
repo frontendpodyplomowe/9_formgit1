@@ -15,32 +15,42 @@ ul li {
   width: 200px;
 }
 
-h1{
-    text-align: center;
-    font-weight: bolder;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: lightgreen;
+h1 {
+  text-align: center;
+  font-weight: bolder;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: lightgreen;
 }
 
 div h2 {
-    color: brown;
-    background-color: cornsilk;
-    border: 5px solid blue;
-    text-align: center;
+  color: brown;
+  background-color: cornsilk;
+  border: 5px solid blue;
+  text-align: center;
 }
 
-form input[type=text] {
-    background-color: yellow;
-    width: 200px;
+form input[type="text"] {
+  background-color: yellow;
+  width: 200px;
 }
 
-form label[id=title1] {
-    font-size: 20px;
-    font-weight: bolder;
-    font-family: 'Courier New', Courier, monospace;
+form label[id="title1"] {
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: "Courier New", Courier, monospace;
 }
 
-.setName{
-    border: 5px dashed darkblue;
-    width: 500px;
+.setName {
+  border: 5px dashed darkblue;
+  width: 500px;
+}
+
+form {
+  color: green;
+  text-shadow: 2px 2px 5px red;
+}
+h1 {
+  color: green;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
