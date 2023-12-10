@@ -44,3 +44,8 @@ form label[id=title1] {
     border: 5px dashed darkblue;
     width: 500px;
 }
+
+div.form1 {
+  width: 60%;
+  background-color: bisque;
+}
