@@ -44,3 +44,29 @@ form label[id=title1] {
     border: 5px dashed darkblue;
     width: 500px;
 }
+
+#zdjecie1 {
+  width: 1000px;
+  height: 400px;
+align-items: center;
+justify-content: center;
+display: flex;
+}
+
+#zdjecie2 {
+  width: 1000px;
+  height: 400px;
+  
+}
+
+#zdjecie3 {
+  width: 1000px;
+  height: 400px;
+}
+
+.hidden {
+  display: none
+}
+.container {
+  text-align: center;
+}
