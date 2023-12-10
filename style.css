@@ -1,3 +1,10 @@
+body {
+  background-image: url(winter.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .visibility {
   display: none;
 }
@@ -15,37 +22,50 @@ ul li {
   width: 200px;
 }
 
-h1[id='main-heading']{
+h1{
     text-align: center;
     font-weight: bolder;
     font-size: 72px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     animation: gradientAnimationWithMove 3s linear alternate infinite;
-    color: red;
+    color: lightgreen;
     text-shadow:  4px 3px 5px red;
+
 }
 
 div h2 {
-    color: brown;
-    background-color: cornsilk;
-    border: 5px solid blue;
-    text-align: center;
+  color: brown;
+  background-color: cornsilk;
+  border: 5px solid blue;
+  text-align: center;
 }
 
-form input[type=text] {
-    background-color: yellow;
-    width: 200px;
+form input[type="text"] {
+  background-color: yellow;
+  width: 200px;
 }
 
-form label[id=title1] {
-    font-size: 20px;
-    font-weight: bolder;
-    font-family: 'Courier New', Courier, monospace;
+form label[name="present_book"] {
+  background-color: yellow;
 }
 
-.setName{
-    border: 5px dashed darkblue;
-    width: 500px;
+form label[name="present_book"]:hover {
+  background-color: green;
+  color: white;
+}
+
+.radio {
+  display: flex;
+}
+
+h3 {
+  text-align: center;
+
+
+form label[id="title1"] {
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: "Courier New", Courier, monospace;
 }
 
 
@@ -75,4 +95,24 @@ form label[id=title1] {
     text-shadow:  4px 3px 5px rgb(34, 240, 34);
   }
   
+form input[id]:hover {
+  font-size: 16px;
+  font-weight: bolder;
+  font-style: italic;
+  background-color: pink;
+  color: green;
+}
+
+.setName {
+  border: 5px dashed darkblue;
+  width: 500px;
+}
+
+.img{
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.img img{
+  width: 100%;
 }
