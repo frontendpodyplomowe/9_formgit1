@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>task git</title>
     <link rel="stylesheet" href="style.css" />
+
+    <script src="script.js" defer></script>
   </head>
   <body>
     <div class="visibility">
@@ -18,6 +20,7 @@
         <li><a href="#">Zupa rosół</a></li>
       </ul>
     </div>
+
     <h1>Strona kontaktowa</h1>
     <div class = "slider" class = "container">
       <img src = "https://www.casfera.pl/wp-content/uploads/2016/11/swiety-mikolaj-w-centrum-handlowym-jak-go-wykorzystac-1600x746.jpg" alt = "swiety Mikolaj" id = "zdjecie1">
@@ -29,6 +32,7 @@
 
     </div>
      <div class="form1">
+
       <h2>formularz kontaktowy</h2>
       <!-- Opis:
 Tytul (początkowy commit - "initial commit")
@@ -38,7 +42,7 @@ email (obowiazkowe) ok
 ile lat doswiadczenia (wybierz jakis numer) <<
 Opisz sprawę (textarea): 
 Button1 -> "WYSLIJ" (typ submit), ostylować prosto,  -->
-      <form>
+      <form id="form">
         <div class="setName">
           <label id="title1" for="field1">Podaj imię:</label>
           <input type="text" id="field1" placeholder="imię pracownika" /><br />
@@ -58,8 +62,36 @@ Button1 -> "WYSLIJ" (typ submit), ostylować prosto,  -->
         ><br />
         <textarea id="field5" cols="10" rows="5" spellcheck="true"></textarea
         ><br />
+        <input type="submit" id="sendForm" name="sendForm" value="Wyślij" /> 
+        
+        <br>
+       
+        <label id="message" for="field5"><strong>Wyślij wiadomość do Św. Mikołaja:</strong></label
+        ><br />
+        <textarea id="field5" cols="10" rows="5" spellcheck="true"></textarea
+        ><br />
         <input type="submit" id="sendForm" name="sendForm" value="Wyślij" />
+        <br />
+        <div class="radio"></div>
+          <h3>Jaka ksiazke chcesz dostac od Mikolaja?</h3>
+          <br />
+          <input type="radio" id="js" value="JS" />
+            <label name="present_book" for="js">JS</label><br />
+          <input type="radio" id="python" value="PYTHON" />
+            <label name="present_book" for="python">PYTHON</label>
+          <br />
+          <input type="radio" id="cplusplus" value="CPLUSPLUS" />
+            <label name="present_book" for="cplusplus">C++</label>
+          <br />
+          <input type="radio" id="nobook" value="NOBOOK" />
+            <label name="present_book" for="python">NO BOOK, JUST MONEY</label>
+        </div>
+        <button type="submit" id="resetForm" nane="resetForm">Wyczyść</button>
       </form>
+
+    </div>
+    <div class="img">
+      <img src="img/2024.png" alt="">
     </div>
   </body>
 </html>
