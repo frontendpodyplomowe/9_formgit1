@@ -58,6 +58,13 @@ form label[name="present_book"]:hover {
   display: flex;
 }
 
+#message {
+color: red;
+font-size: 20px;
+
+}
+
+
 h3 {
   text-align: center;
 
