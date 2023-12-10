@@ -19,7 +19,7 @@
       </ul>
     </div>
     <h1>Strona kontaktowa</h1>
-     <div class="form1">
+    <div class="form1">
       <h2>formularz kontaktowy</h2>
       <!-- Opis:
 Tytul (początkowy commit - "initial commit")
@@ -50,6 +50,21 @@ Button1 -> "WYSLIJ" (typ submit), ostylować prosto,  -->
         <textarea id="field5" cols="10" rows="5" spellcheck="true"></textarea
         ><br />
         <input type="submit" id="sendForm" name="sendForm" value="Wyślij" />
+        <br />
+        <div class="radio"></div>
+          <h3>Jaka ksiazke chcesz dostac od Mikolaja?</h3>
+          <br />
+          <input type="radio" id="js" value="JS" />
+            <label name="present_book" for="js">JS</label><br />
+          <input type="radio" id="python" value="PYTHON" />
+            <label name="present_book" for="python">PYTHON</label>
+          <br />
+          <input type="radio" id="cplusplus" value="CPLUSPLUS" />
+            <label name="present_book" for="cplusplus">C++</label>
+          <br />
+          <input type="radio" id="nobook" value="NOBOOK" />
+            <label name="present_book" for="python">NO BOOK, JUST MONEY</label>
+        </div>
       </form>
     </div>
   </body>
