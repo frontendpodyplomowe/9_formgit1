@@ -44,3 +44,11 @@ form label[id=title1] {
     border: 5px dashed darkblue;
     width: 500px;
 }
+
+#message {
+color: red;
+font-size: 20px;
+
+}
+
+
