@@ -60,3 +60,11 @@ form input[id]:hover {
   width: 500px;
 }
 
+.img{
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.img img{
+  width: 100%;
+}
