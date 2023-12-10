@@ -15,11 +15,14 @@ ul li {
   width: 200px;
 }
 
-h1{
+h1[id='main-heading']{
     text-align: center;
     font-weight: bolder;
+    font-size: 72px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: lightgreen;
+    animation: gradientAnimationWithMove 3s linear alternate infinite;
+    color: red;
+    text-shadow:  4px 3px 5px red;
 }
 
 div h2 {
@@ -43,4 +46,33 @@ form label[id=title1] {
 .setName{
     border: 5px dashed darkblue;
     width: 500px;
+}
+
+
+
+@keyframes gradientAnimationWithMove {
+  0%{
+    color: red;
+    text-shadow:  1px 2px 1px red;
+  }
+  25%{
+    color: rgb(164, 2, 2);
+    text-shadow:  4px 3px 5px rgb(164, 2, 2);
+  }
+  
+  50%{
+    color: rgb(28, 169, 28);
+    text-shadow:  4px 3px 5px rgb(28, 169, 28);
+  }
+
+  75%{
+    color: rgb(71, 255, 5);
+    text-shadow:  4px 3px 5px rgb(71, 255, 5);
+  }
+  
+  100%{
+    color: rgb(34, 240, 34);
+    text-shadow:  4px 3px 5px rgb(34, 240, 34);
+  }
+  
 }
