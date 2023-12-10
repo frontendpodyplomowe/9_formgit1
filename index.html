@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>task git</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
     <div class="visibility">
@@ -29,7 +30,7 @@ email (obowiazkowe) ok
 ile lat doswiadczenia (wybierz jakis numer) <<
 Opisz sprawę (textarea): 
 Button1 -> "WYSLIJ" (typ submit), ostylować prosto,  -->
-      <form>
+      <form id="form">
         <div class="setName">
           <label id="title1" for="field1">Podaj imię:</label>
           <input type="text" id="field1" placeholder="imię pracownika" /><br />
@@ -50,6 +51,7 @@ Button1 -> "WYSLIJ" (typ submit), ostylować prosto,  -->
         <textarea id="field5" cols="10" rows="5" spellcheck="true"></textarea
         ><br />
         <input type="submit" id="sendForm" name="sendForm" value="Wyślij" />
+        <button type="submit" id="resetForm" nane="resetForm">Wyczyść</button>
       </form>
     </div>
     <div class="img">
