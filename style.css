@@ -128,3 +128,29 @@ div.form1 {
   width: 60%;
   background-color: bisque;
 }
+
+#zdjecie1 {
+  width: 1000px;
+  height: 400px;
+align-items: center;
+justify-content: center;
+display: flex;
+}
+
+#zdjecie2 {
+  width: 1000px;
+  height: 400px;
+  
+}
+
+#zdjecie3 {
+  width: 1000px;
+  height: 400px;
+}
+
+.hidden {
+  display: none
+}
+.container {
+  text-align: center;
+}
