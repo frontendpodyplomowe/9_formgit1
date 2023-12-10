@@ -123,3 +123,8 @@ form input[id]:hover {
 .img img{
   width: 100%;
 }
+
+div.form1 {
+  width: 60%;
+  background-color: bisque;
+}
