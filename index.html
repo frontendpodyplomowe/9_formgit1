@@ -19,13 +19,25 @@
       </ul>
     </div>
     <h1>Strona kontaktowa</h1>
-    <div class = "slider" class = "container">
-      <img src = "https://www.casfera.pl/wp-content/uploads/2016/11/swiety-mikolaj-w-centrum-handlowym-jak-go-wykorzystac-1600x746.jpg" alt = "swiety Mikolaj" id = "zdjecie1">
-      <img src = "https://perso.in/wp-content/uploads/2020/12/pexels-giftpunditscom-1666065.jpg" alt = "prezenty" id = "zdjęcie2" class = "hidden">
-      <img src = "http://bozonarodzeniowe.com.pl/wp-content/uploads/2020/10/pexels-elly-fairytale-3811051.jpg" alt ="choinka" id = "zdjecie3" class = "hidden">
-<input type = "radio" id = "1">
-<input type = "radio" id = "2">
-<input type = "radio" id = "3">
+    <div class="slider_all">
+    <div id = "baner1" class = "b_all">
+      <a href ="https://magicznymikolaj.pl/list-do-mikolaja" target="_blank"><img src = "https://www.casfera.pl/wp-content/uploads/2016/11/swiety-mikolaj-w-centrum-handlowym-jak-go-wykorzystac-1600x746.jpg" alt = "swiety Mikolaj" id = "zdjecie1">
+      <span class="img-text"> Napisz list do Świętego Mikołaja </span></a>
+      </div>
+      <div id ="baner2" class = "b_all" class = "hidden">
+      <a href ="https://zrzutka.pl/awards/catalog?saleType=2&type=0&categories%5B%5D=0&state=0&priceMin=&priceMax=&city=&term=&sort=popular" target="_blank"><img src = "https://perso.in/wp-content/uploads/2020/12/pexels-giftpunditscom-1666065.jpg" alt = "prezenty" id = "zdjecie2">
+      <span class="img-text"> Wybierz swój prezent </span></a>
+      </div>
+      <div id = "baner3" class = "b_all" class = "hidden">
+      <a href="https://wirtualnachoinka.pl/" target="_blank"><img src = "https://home.morele.net/wp-content/uploads/2021/11/1-70-1024x683.png" alt ="choinka" id = "zdjecie3" >
+      <span class="img-text"> Ubierz wirtualną choinkę </span></a>
+    </div>
+      </div>
+
+      <div class = "slider_radio">
+<input type = "radio" class = "slider_radio_all" id = "r1" name="prezent" checked>
+<input type = "radio" class = "slider_radio_all" id = "r2" name="prezent">
+<input type = "radio" class = "slider_radio_all" id = "r3" name="prezent">
 
     </div>
      <div class="form1">
@@ -61,5 +73,6 @@ Button1 -> "WYSLIJ" (typ submit), ostylować prosto,  -->
         <input type="submit" id="sendForm" name="sendForm" value="Wyślij" />
       </form>
     </div>
+    <script defer src="script.js"></script>
   </body>
 </html>

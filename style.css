@@ -44,29 +44,57 @@ form label[id=title1] {
     border: 5px dashed darkblue;
     width: 500px;
 }
+.slider_all {
+ display: flex;
+ justify-content: center;
+}
+
+.slider_radio {
+  display: flex;
+  justify-content: center;
+ margin-top: 20px;
+ margin-bottom: 60px;
+}
 
 #zdjecie1 {
-  width: 1000px;
-  height: 400px;
-align-items: center;
-justify-content: center;
-display: flex;
+  width: 600px;
+  height: 300px;
+
 }
 
 #zdjecie2 {
-  width: 1000px;
-  height: 400px;
-  
-}
+  width: 600px;
+  height: 300px;
+  }
 
 #zdjecie3 {
-  width: 1000px;
-  height: 400px;
+  width: 600px;
+  height: 300px;
 }
+
+.b_all {
+  position: relative;
+  display: inline-block;
+  float: left;
+}
+
+.img-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: rgb(240, 246, 255, 0.7);
+  font-size: 20px;
+  padding: 10px;
+  font-weight: bolder;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  white-space: nowrap;
+  color: black;
+  border: 5px;
+  box-shadow: 0 0 10px ;
+  }
+
 
 .hidden {
   display: none
-}
-.container {
-  text-align: center;
 }
